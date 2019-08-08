@@ -1,9 +1,0 @@
-Partlist exported from C:/Users/ben/Documents/eagle/USB_to_can/usb_to_can.sch at 6/17/2019 10:57 PM
-
-Part   Value                        Device                       Package       Description                                                 MF MPN OC_FARNELL OC_NEWARK
-C2     47 pF                        C-USC0402K                   C0402K        CAPACITOR, American symbol                                                             
-C3     10 nF                        C-USC0402K                   C0402K        CAPACITOR, American symbol                                                             
-C7     47 pF                        C-USC0402K                   C0402K        CAPACITOR, American symbol                                                             
-R3                                  R-US_R0402                   R0402         RESISTOR, American symbol                                                              
-R10    27                           R-US_R0402                   R0402         RESISTOR, American symbol                                                              
-R11    27                           R-US_R0402                   R0402         RESISTOR, American symbol                                                              
