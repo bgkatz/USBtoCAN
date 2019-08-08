@@ -8638,39 +8638,39 @@ Source: www.cypressindustries.com</description>
 <parts>
 <part name="U$3" library="BenLibrary" deviceset="STM32F446RET6" device=""/>
 <part name="CHOKE" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="600r"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0603" value="4.7"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C27" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
-<part name="C31" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
-<part name="C32" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0402K" value="4.7"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0402K" value="1uF"/>
+<part name="C27" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
+<part name="C31" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
+<part name="C32" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="0603" value="G"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="70"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="70"/>
 <part name="XT1" library="sc_usercreated" deviceset="CSTCE" device=""/>
-<part name="C41" library="rcl" deviceset="C-US" device="C0603" value="15 nF"/>
+<part name="C41" library="rcl" deviceset="C-US" device="C0402K" value="15 nF"/>
 <part name="DC1" library="dc-dc-converter" deviceset="VA-*?" device="S" technology="1224"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603K"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0603K"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0402K"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0402K"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="VR1" library="sc_usercreated" deviceset="LM1117" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
-<part name="C30" library="rcl" deviceset="C-US" device="C0805K" value="10uF"/>
+<part name="C29" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
+<part name="C30" library="rcl" deviceset="C-US" device="C0402K" value="10uF"/>
 <part name="U$4" library="BenLibrary" deviceset="MCP2561" device=""/>
 <part name="U$8" library="BenLibrary" deviceset="SI8410" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0603K"/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0603K"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0402K"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0402K"/>
 <part name="IC1" library="ftdichip" deviceset="FT230X" device="S"/>
 <part name="CHOKE1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="600r"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="27"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="27"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="47 pF"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="47 pF"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="10 nF"/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0603" value=".1 uF"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0603" value=".1 uF"/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0603" value="4.7 uF"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="27"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="27"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0402K" value="47 pF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0402K" value="47 pF"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0402K" value="10 nF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0402K" value="4.7 uF"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="X1" library="con-cypressindustries" deviceset="MINI-USB_SHIELD5P4-" device="32005-501"/>
 </parts>
 <sheets>
@@ -8861,6 +8861,11 @@ Source: www.cypressindustries.com</description>
 <wire x1="134.62" y1="15.24" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
 <label x="134.62" y="10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<label x="12.7" y="63.5" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="5"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -8928,6 +8933,32 @@ Source: www.cypressindustries.com</description>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="147.32" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
 <junction x="210.82" y="152.4"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="!RESET"/>
+<wire x1="119.38" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VCCIO"/>
+<wire x1="88.9" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="38.1" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<junction x="101.6" y="63.5"/>
+<pinref part="IC1" gate="G$1" pin="3V3OUT"/>
+<wire x1="86.36" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="27.94" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+<junction x="121.92" y="30.48"/>
+<label x="101.6" y="66.04" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="58.42" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<junction x="86.36" y="63.5"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="76.2" y="63.5"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -9191,13 +9222,6 @@ Source: www.cypressindustries.com</description>
 <junction x="180.34" y="154.94"/>
 </segment>
 </net>
-<net name="USBGND" class="0">
-<segment>
-<wire x1="33.02" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
-<label x="12.7" y="63.5" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="5"/>
-</segment>
-</net>
 <net name="USB_TX" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TXD"/>
@@ -9286,34 +9310,6 @@ Source: www.cypressindustries.com</description>
 <pinref part="IC1" gate="G$1" pin="USBDM"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SERIAL_3V3" class="0">
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="30.48" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="!RESET"/>
-<wire x1="119.38" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VCCIO"/>
-<wire x1="88.9" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="38.1" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<junction x="101.6" y="63.5"/>
-<pinref part="IC1" gate="G$1" pin="3V3OUT"/>
-<wire x1="86.36" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="27.94" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<junction x="121.92" y="30.48"/>
-<label x="101.6" y="66.04" size="1.778" layer="95"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<junction x="86.36" y="63.5"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="58.42" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<junction x="76.2" y="63.5"/>
 </segment>
 </net>
 </nets>

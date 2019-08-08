@@ -8810,27 +8810,27 @@ http://www.jst-mfg.com&lt;p&gt;
 <parts>
 <part name="U$3" library="BenLibrary" deviceset="STM32F446RET6" device=""/>
 <part name="CHOKE" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="600r"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0402K" value="4.7"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0402K" value="1uF"/>
-<part name="C27" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0402K" value="4.7 uF"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0402K" value="1 uF"/>
+<part name="C27" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
 <part name="C31" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
-<part name="C32" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
+<part name="C32" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="0603" value="G"/>
 <part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="70"/>
 <part name="XT1" library="sc_usercreated" deviceset="CSTCE" device=""/>
 <part name="C41" library="rcl" deviceset="C-US" device="C0402K" value="15 nF"/>
 <part name="DC1" library="dc-dc-converter" deviceset="VA-*?" device="S" technology="1224"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0402K"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0402K"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="120"/>
 <part name="VR1" library="sc_usercreated" deviceset="LM1117" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-US" device="C0402K" value="100nF"/>
-<part name="C30" library="rcl" deviceset="C-US" device="C0402K" value="10uF"/>
+<part name="C29" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="C30" library="rcl" deviceset="C-US" device="C0402K" value="10 uF"/>
 <part name="U$4" library="BenLibrary" deviceset="MCP2561" device=""/>
 <part name="U$8" library="BenLibrary" deviceset="SI8410" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0402K"/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0402K"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0402K" value=".1 uF"/>
 <part name="IC1" library="ftdichip" deviceset="FT230X" device="S"/>
 <part name="CHOKE1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="600r"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="27"/>

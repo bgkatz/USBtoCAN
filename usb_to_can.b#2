@@ -3,7 +3,7 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -1845,19 +1845,19 @@ design rules under a new name.</description>
 <element name="CHOKE" library="SparkFun-Passives" package="0603" value="600r" x="3.18" y="28.23" smashed="yes">
 <attribute name="NAME" x="2.451" y="27.072" size="0.4064" layer="25" font="vector"/>
 </element>
-<element name="C9" library="rcl" package="C0402K" value="4.7" x="15.41" y="23.17" smashed="yes" rot="R180">
+<element name="C9" library="rcl" package="C0402K" value="4.7 uF" x="15.41" y="23.17" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.75" y="22.425" size="0.5" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C10" library="rcl" package="C0402K" value="1uF" x="5.04" y="36.64" smashed="yes" rot="R90">
+<element name="C10" library="rcl" package="C0402K" value="1 uF" x="5.04" y="36.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.815" y="36.14" size="0.5" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C27" library="rcl" package="C0402K" value="100nF" x="6.04" y="36.64" smashed="yes" rot="R90">
+<element name="C27" library="rcl" package="C0402K" value=".1 uF" x="6.04" y="36.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.215" y="36.14" size="0.5" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C31" library="rcl" package="C0402K" value="100nF" x="19.34" y="34.73" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.125" y="33.47" size="0.5" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C32" library="rcl" package="C0402K" value="100nF" x="4.98" y="25.34" smashed="yes" rot="R180">
+<element name="C32" library="rcl" package="C0402K" value=".1 uF" x="4.98" y="25.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.48" y="24.755" size="0.5" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="LED2" library="SparkFun-LED" package="LED-0603" value="G" x="8.4" y="22.5" smashed="yes" rot="R90">
@@ -1875,28 +1875,26 @@ design rules under a new name.</description>
 <element name="DC1" library="dc-dc-converter" package="4SIL" value="VA-1224S" x="34.2" y="29.57" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="39.28" y="75.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="39.28" y="75.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.12" y="24.49" size="1.778" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="39.28" y="75.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="39.28" y="75.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C8" library="rcl" package="C0402K" value=".1uF" x="29.04" y="22.71" smashed="yes" rot="R270">
+<element name="C8" library="rcl" package="C0402K" value=".1 uF" x="29.04" y="22.71" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.625" y="23.05" size="0.5" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C11" library="rcl" package="C0402K" value=".1uF" x="29.53" y="32.46" smashed="yes" rot="R270">
+<element name="C11" library="rcl" package="C0402K" value=".1 uF" x="29.53" y="32.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.315" y="35.2" size="0.5" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R3" library="rcl" package="R0402" value="" x="25.51" y="36.23" smashed="yes">
+<element name="R3" library="rcl" package="R0402" value="120" x="25.51" y="36.23" smashed="yes">
 <attribute name="NAME" x="26.795" y="36.065" size="0.5" layer="25" font="vector"/>
-<attribute name="VALUE" x="24.875" y="34.325" size="1.27" layer="27"/>
 </element>
 <element name="VR1" library="sc_usercreated" package="SOT-223" value="LM1117" x="26.52" y="13.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.75" y="16.8908" size="0.5" layer="25" font="vector"/>
 </element>
-<element name="C29" library="rcl" package="C0402K" value="100nF" x="19.08" y="12.47" smashed="yes" rot="R90">
+<element name="C29" library="rcl" package="C0402K" value=".1 uF" x="19.08" y="12.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.495" y="11.17" size="0.5" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="20.53" y="11.97" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="C30" library="rcl" package="C0402K" value="10uF" x="19.31" y="15.17" smashed="yes" rot="R90">
+<element name="C30" library="rcl" package="C0402K" value="10 uF" x="19.31" y="15.17" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.725" y="14.03" size="0.5" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="20.76" y="14.67" size="1.016" layer="27" rot="R90"/>
 </element>
@@ -1906,12 +1904,10 @@ design rules under a new name.</description>
 <element name="U$8" library="BenLibrary" package="SO08" value="SI8410" x="26.57" y="26.39" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.395" y="23.723" size="0.5" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C1" library="rcl" package="C0402K" value=".1uF" x="21.19" y="33.56" smashed="yes" rot="R270">
+<element name="C1" library="rcl" package="C0402K" value=".1 uF" x="21.19" y="33.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.975" y="35.82" size="0.5" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C24" library="rcl" package="C0402K" value=".1uF" x="22.47" y="26.29" smashed="yes" rot="R90">
-<attribute name="VALUE" x="23.92" y="25.79" size="1.016" layer="27" rot="R90"/>
-</element>
+<element name="C24" library="rcl" package="C0402K" value=".1 uF" x="22.47" y="26.29" smashed="yes" rot="R90"/>
 <element name="IC1" library="ftdichip" package="SSOP16" value="FT230XS" x="13.6" y="18.91" smashed="yes"/>
 <element name="CHOKE1" library="SparkFun-Passives" package="0603" value="600r" x="20.32" y="18.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.082" y="19.209" size="0.4064" layer="25" font="vector" rot="R270"/>
