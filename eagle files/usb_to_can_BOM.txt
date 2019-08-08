@@ -25,3 +25,7 @@ Qty Value                        Device                       Package       Part
 1   SM07B-SRSS-TB                SM07B-SRSS-TB                SM07B-SRSS-TB PROG                                    Disconnectable Crimp style connector, 1.0mm pitch7 contacts                            
 1   STM32F446RET6                STM32F446RET6                TQFP64        U$3                                     ARM DSP Chip used on the WAV Trigger board.                                            
 1   VA-1224S                     CRE1S0505S3C	              4SIL          DC1                                     DC DC Converter Single Output, 1 Watt                              unknown    unknown  
+
+
+BOM in digikey-cart form:
+https://www.digikey.com/short/p53nzj
